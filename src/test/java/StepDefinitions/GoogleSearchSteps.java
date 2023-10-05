@@ -34,6 +34,7 @@ public class GoogleSearchSteps {
         System.out.println("Step 2 - User is on google search page");
 
         driver.navigate().to("https://google.com");
+
     }
     @When("user enters a text in search box")
     public void user_enters_a_text_in_search_box() {
