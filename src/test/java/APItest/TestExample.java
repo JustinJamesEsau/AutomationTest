@@ -10,7 +10,7 @@ public class TestExample {
     @Test
     public void test_1() {
 
-        Response response = RestAssured.get("https://reqres.in/api/users?page=2");
+        Response response = RestAssured.get("https://api.coindesk.com/v1/bpi/currentprice.json");
 
         System.out.println(response.getStatusCode());
         System.out.println(response.getTime());

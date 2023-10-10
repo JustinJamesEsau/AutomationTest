@@ -46,10 +46,10 @@ public class OrangeLoginSteps {
         driver.findElement(By.cssSelector("input[placeholder='Password']")).sendKeys("admin123");
     }
 
-    @And("user clicks on login button")
-    public void user_clicks_on_login_button() {
-        driver.findElement(By.xpath("//button[@type='submit']")).click();
-    }
+//    @And("user clicks on login button")
+//    public void user_clicks_on_login_button() {
+//        driver.findElement(By.xpath("//button[@type='submit']")).click();
+//    }
     @Then("user is navigated to Dashboard page")
     public void user_is_navigated_to_dashboard_page() {
         System.out.println("Step 5 - User is navigated to Dashboard page");
