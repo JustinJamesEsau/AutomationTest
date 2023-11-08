@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb23cf7d-4650-42fb-a2e2-1e622a3a3164" name="Changes" comment="working cucumber 2">
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Task_2_WebSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/Task_2_Web.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/Task1_User1.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/Task2_User2.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/GoogleSearchSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/MakeAppointmentSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/OrangeLoginSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/APItest/TestExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/APItest/API_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/Task_2_WebSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Task_2_WebSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Drivers/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Drivers/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/GoogleSearch.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/MakeAppointment.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/orangeLogin.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/Task_2_Web.feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,60 +68,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.TestExample.test_1">
-    <configuration name="Feature: GoogleSearch" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/GoogleSearch.feature" />
-      <option name="GLUE" value="StepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Justin.QA.Automation.Demo.Project" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: GoogleSearch" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Validate google search is working" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/GoogleSearch.feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Justin.QA.Automation.Demo.Project" />
-      <option name="NAME_FILTER" value="^Validate google search is working$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Validate google search is working$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Validate google search is working" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Justin.QA.Automation.Demo.Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StepDefinitions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="StepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="StepDefinitions.TestRunner" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.API_Test.test_4">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Justin.QA.Automation.Demo.Project" />
       <method v="2">
@@ -139,7 +82,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestExample.test_1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="API_Test.test_1 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Project.QA.Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="APItest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="APItest" />
+      <option name="MAIN_CLASS_NAME" value="APItest.API_Test" />
+      <option name="METHOD_NAME" value="test_1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="API_Test.test_1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Justin.QA.Automation.Demo.Project" />
       <extension name="coverage">
         <pattern>
@@ -148,8 +109,80 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="APItest" />
-      <option name="MAIN_CLASS_NAME" value="APItest.TestExample" />
+      <option name="MAIN_CLASS_NAME" value="APItest.API_Test" />
       <option name="METHOD_NAME" value="test_1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="API_Test.test_1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Project.QA.Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="APItest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="APItest" />
+      <option name="MAIN_CLASS_NAME" value="APItest.API_Test" />
+      <option name="METHOD_NAME" value="test_1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="API_Test.test_2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Project.QA.Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="APItest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="APItest" />
+      <option name="MAIN_CLASS_NAME" value="APItest.API_Test" />
+      <option name="METHOD_NAME" value="test_2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="API_Test.test_3" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Project.QA.Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="APItest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="APItest" />
+      <option name="MAIN_CLASS_NAME" value="APItest.API_Test" />
+      <option name="METHOD_NAME" value="test_3" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="API_Test.test_4" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Project.QA.Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="APItest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="APItest" />
+      <option name="MAIN_CLASS_NAME" value="APItest.API_Test" />
+      <option name="METHOD_NAME" value="test_4" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -159,10 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestExample.test_1" />
-        <item itemvalue="JUnit.TestRunner" />
-        <item itemvalue="Cucumber Java.Feature: GoogleSearch" />
-        <item itemvalue="Cucumber Java.Scenario: Validate google search is working" />
+        <item itemvalue="TestNG.API_Test.test_4" />
+        <item itemvalue="TestNG.API_Test.test_3" />
+        <item itemvalue="TestNG.API_Test.test_2" />
+        <item itemvalue="TestNG.API_Test.test_1 (1)" />
+        <item itemvalue="TestNG.API_Test.test_1" />
       </list>
     </recent_temporary>
   </component>
