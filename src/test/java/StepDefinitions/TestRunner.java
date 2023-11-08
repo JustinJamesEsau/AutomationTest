@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/resources/Features",glue = {"StepDefinitions"}, monochrome = true,
 plugin = {"pretty", "html:target/reports/index.html"},
-tags = "@MakeAppointment"
+tags = "@UserListTable"
 )
 public class TestRunner {
 }
